@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Alice Johnson",
+    "phone": "+1-555-0101",
+    "email": "alice.johnson@example.com",
+    "address": {
+      "street": "123 Elm Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701",
+      "country": "USA"
+    },
+    "tags": ["friend", "college", "alumni"]
+  },
+  {
+    "name": "Bob Williams",
+    "phone": "+1-555-0102",
+    "email": "bob.williams@corp.net",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Metropolis",
+      "state": "NY",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "tags": ["work", "client", "stinks"]
+  },
+  {
+    "name": "Clara Martinez",
+    "phone": "+34-612-345-678",
+    "email": "clara.m@email.es",
+    "address": {
+      "street": "Calle Mayor 7",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "zip": "28013",
+      "country": "Spain"
+    },
+    "tags": ["family", "cousin"]
+  },
+  {
+    "name": "Derek Thompson",
+    "phone": "+44-7700-900-123",
+    "email": "d.thompson@fakemail.co.uk",
+    "address": {
+      "street": "22 Baker Street",
+      "city": "London",
+      "state": "Greater London",
+      "zip": "NW1 6XE",
+      "country": "UK"
+    },
+    "tags": ["work", "tech", "conference", "takes too much holidays"]
+  },
+  {
+    "name": "Elena Rossi",
+    "phone": "+39-345-678-9012",
+    "email": "elena.rossi@italianmail.it",
+    "address": {
+      "street": "Via Roma 45",
+      "city": "Rome",
+      "state": "Lazio",
+      "zip": "00100",
+      "country": "Italy"
+    },
+    "tags": ["friend", "travel"]
+  },
+  {
+    "name": "Felix Nguyen",
+    "phone": "+84-90-123-45-67",
+    "email": "felix.nguyen@viet.vn",
+    "address": {
+      "street": "15 Phan Chu Trinh",
+      "city": "Hanoi",
+      "state": "Hanoi",
+      "zip": "100000",
+      "country": "Vietnam"
+    },
+    "tags": ["work", "partner"]
+  },
+  {
+    "name": "Grace Chen",
+    "phone": "+86-138-0000-1234",
+    "email": "grace.chen@example.cn",
+    "address": {
+      "street": "88 Nanjing Road",
+      "city": "Shanghai",
+      "state": "Shanghai",
+      "zip": "200000",
+      "country": "China"
+    },
+    "tags": ["family", "aunt"]
+  },
+  {
+    "name": "Hector Garcia",
+    "phone": "+52-55-1234-5678",
+    "email": "hector.garcia@mail.mx",
+    "address": {
+      "street": "Avenida Reforma 200",
+      "city": "Mexico City",
+      "state": "CDMX",
+      "zip": "06600",
+      "country": "Mexico"
+    },
+    "tags": ["friend", "gym", "soccer"]
+  },
+  {
+    "name": "Irina Petrova",
+    "phone": "+7-912-345-67-89",
+    "email": "irina.p@russmail.ru",
+    "address": {
+      "street": "Ulitsa Tverskaya 12",
+      "city": "Moscow",
+      "state": "Moscow",
+      "zip": "125009",
+      "country": "Russia"
+    },
+    "tags": ["work", "colleague"]
+  },
+  {
+    "name": "James O'Brien",
+    "phone": "+353-87-123-4567",
+    "email": "james.obrien@eircom.ie",
+    "address": {
+      "street": "10 Grafton Street",
+      "city": "Dublin",
+      "state": "Leinster",
+      "zip": "D02 VK72",
+      "country": "Ireland"
+    },
+    "tags": ["family", "brother", "birthday"]
+  },
+  {
+    "name": "Keiko Tanaka",
+    "phone": "+81-90-1234-5678",
+    "email": "keiko.tanaka@jp-mail.jp",
+    "address": {
+      "street": "1-2-3 Shibuya",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "zip": "150-0002",
+      "country": "Japan"
+    },
+    "tags": ["work", "mentor"]
+  },
+  {
+    "name": "Liam Müller",
+    "phone": "+49-151-1234-5678",
+    "email": "liam.mueller@mail.de",
+    "address": {
+      "street": "Unter den Linden 5",
+      "city": "Berlin",
+      "state": "Berlin",
+      "zip": "10117",
+      "country": "Germany"
+    },
+    "tags": ["don't know anything about him"]
+  }
+]
