@@ -13,14 +13,15 @@ def mod(v):
 
 def angle(v,x):
     cos_theta = dotproduct(v,x)/ (mod(v) * mod(x))
+    cos_theta = max(-1.0,min(1.0,cos_theta))
     theta = math.acos(cos_theta)
     angle = theta * 180/math.pi
     return angle
 
 #test
-a = [2,3,4]
-b = [0,3,0]
+a = [1,-5,0]
+b = [2,-10,0]
 
 print(f"Dot produnct: {dotproduct(a,b)}")
-print(f"Angle between them: {angle(a,b):.2f}     degrees")
+print(f"Angle between them: {angle(a,b):.2f} degrees")
 
