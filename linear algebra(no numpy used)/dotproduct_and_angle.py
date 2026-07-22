@@ -8,11 +8,11 @@ def dotproduct(m,n):
         result += m[i] * n[i]
     return result
 
-def mod(v):
+def norm(v):
     return math.sqrt(sum(x*x for x in v))
 
 def angle(v,x):
-    cos_theta = dotproduct(v,x)/ (mod(v) * mod(x))
+    cos_theta = dotproduct(v,x)/ (norm(v) * norm(x))
     cos_theta = max(-1.0,min(1.0,cos_theta))
     theta = math.acos(cos_theta)
     angle = theta * 180/math.pi
