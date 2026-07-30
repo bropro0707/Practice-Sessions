@@ -39,7 +39,7 @@ def transpose(x):
 
 # streching the vector
 def scaling(x,y):
-    return [[x,0],[y,0]]
+    return [[x,0],[0,y] ]
 
 #Rotating matrix
 def rotating_counter_clock(theta):
