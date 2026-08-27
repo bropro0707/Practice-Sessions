@@ -19,9 +19,9 @@ def angle(v,x):
     return angle
 
 #test
-a = [1,-5,0]
+a = [1,-5,1]
 b = [2,-10,0]
 
-print(f"Dot produnct: {dotproduct(a,b)}")
+print(f"Dot product: {dotproduct(a,b)}")
 print(f"Angle between them: {angle(a,b):.2f} degrees")
 
