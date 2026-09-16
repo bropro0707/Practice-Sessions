@@ -1,6 +1,6 @@
 import math
 #small data set
-results = [85, 90, 78, 92, 88, 79, 84, 95]
+data = [3, 13, 19, 24,29]
 
 def mean(dataset):
     return sum(x for x in dataset)/ len(dataset)
@@ -17,10 +17,11 @@ def median(dataset):
     else:
         return dataset[n // 2]
 
-def standard_deviation(dataset):
+def standerd_deviation(dataset):
     avg = mean(dataset)
-    return math.sqrt(sum((x-avg)**2 for x in results)/len(dataset)-1)
+    return math.sqrt(sum((x-avg)**2 for x in data)/len(dataset)-1)
 
 
-print(standard_deviation(results))
-
+varience = standerd_deviation(data)**2
+print(varience)
+print(median(data))
